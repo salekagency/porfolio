@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo';
+     
+}
+
+.scondpagediv{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 18, 18);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titlediv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 90%;
+    padding-right: 3rem;
+    /* padding-left: 4rem;  */
+    margin-bottom: 2rem;
+    /* border: 1px solid red; */
+    animation: titledivanimation 2.5s   both;
+}
+@keyframes titledivanimation {
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+.titlespan{
+    font-size: 1.4rem;
+    width: 70%;
+    text-align: right;
+    margin-right: 1rem;
+}
+.title{
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem;
+
+    /* border: 1px solid red; */
+}
+
+.box{
+    width: 80%;
+    height: aut;
+    background-color: rgb(5, 85, 78) ;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    animation: boxdivanimation 3.5s 1s  both;
+}
+@keyframes boxdivanimation {
+    0% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+.boxdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.boxtitle{
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+.boxspan{
+    font-weight: normal;
+    font-size: 1.5rem;
+    white-space:nowrap ;
+}

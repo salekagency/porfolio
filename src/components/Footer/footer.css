@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.footerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(1, 123, 153);  
+}
+.divactions{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    /* border: 1px solid red; */
+}
+.iconsdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+padding: 0.3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 1rem;
+}
+.icons:hover{
+background-color: white;
+color: black;
+}
+ 
